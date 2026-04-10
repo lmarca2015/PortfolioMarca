@@ -9,18 +9,17 @@ const projectKeys = [
   "izipay"
 ];
 const projectMeta = {
-  tribal:     { year: "2024 - 2026",    country: "Guatemala", flag: "\u{1F1EC}\u{1F1F9}", tags: ["React Native", "Flutter", "iOS", "Mobile"] },
-  consubanco: { year: "2025",           country: "Mexico",    flag: "\u{1F1F2}\u{1F1FD}", tags: ["React Native", "Banking", "Payments"] },
-  bci:        { year: "2022 - 2023",    country: "Chile",     flag: "\u{1F1E8}\u{1F1F1}", tags: ["iOS", "Banking", "Payments"] },
-  mindshore:  { year: "2021 - 2022",    country: "España",    flag: "\u{1F1F5}\u{1F1EA}", tags: ["Kotlin Multi Platform", "Mobile"] },
-  tata:       { year: "2020 - 2021",    country: "India",     flag: "\u{1F1EE}\u{1F1F3}", tags: ["iOS", "SwiftUI", "Enterprise"] },
-  peigo:      { year: "2024 - Present", country: "Ecuador",   flag: "\u{1F1EA}\u{1F1E8}", tags: ["iOS", "SwiftUI", "Firebase", "Fintech"] },
-  encora:     { year: "2022 - 2023",    country: "USA",       flag: "\u{1F1FA}\u{1F1F8}", tags: ["iOS", "UIKit", "SwiftUI", "Mobile"] },
+  tribal:     { year: "2026 - 2026",    country: "Guatemala", flag: "\u{1F1EC}\u{1F1F9}", tags: ["React Native", "Flutter", "iOS", "Mobile"] },
+  consubanco: { year: "2025 - 2026",    country: "Mexico",    flag: "\u{1F1F2}\u{1F1FD}", tags: ["React Native", "Banking", "Payments"] },
+  bci:        { year: "2025 - 2025",    country: "Chile",     flag: "\u{1F1E8}\u{1F1F1}", tags: ["iOS", "Banking", "Payments"] },
+  tata:       { year: "2024 - 2025",    country: "India",     flag: "\u{1F1EE}\u{1F1F3}", tags: ["iOS", "SwiftUI", "Enterprise"] },
+  peigo:      { year: "2024 - 2024",    country: "Ecuador",   flag: "\u{1F1EA}\u{1F1E8}", tags: ["iOS", "SwiftUI", "Firebase", "Fintech"] },
+  mindshore:  { year: "2023 - 2024",    country: "España",    flag: "\u{1F1F5}\u{1F1EA}", tags: ["Kotlin Multi Platform", "Mobile"] },
+  encora:     { year: "2023 - 2023",    country: "USA",       flag: "\u{1F1FA}\u{1F1F8}", tags: ["iOS", "UIKit", "SwiftUI", "Mobile"] },
   thinkup:    { year: "2021 - 2022",    country: "Uruguay",   flag: "\u{1F1FA}\u{1F1FE}", tags: ["iOS", "Android", "Firebase", "Mobile"] },
-  tismart:    { year: "2018 - 2019",    country: "Peru",      flag: "\u{1F1F5}\u{1F1EA}", tags: ["React Native", "Mobile"] },
+  tismart:    { year: "2021 - 2021",    country: "Peru",      flag: "\u{1F1F5}\u{1F1EA}", tags: ["React Native", "Mobile"] },
   coderio:    { year: "2020 - 2021",    country: "Argentina", flag: "\u{1F1E6}\u{1F1F7}", tags: ["iOS", "Objective C", "Swift", "UIKit", "Mobile"] },
   izipay:     { year: "2014 - 2020",    country: "Peru",      flag: "\u{1F1F5}\u{1F1EA}", tags: ["iOS", "Objective C", "Swift", "UIKit", "Payments"] },
-
 };
 
 const fadeUp = {
