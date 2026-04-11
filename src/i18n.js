@@ -9,9 +9,9 @@ const resources = {
         eyebrow: "Portfolio · 2026",
         title1: "Diseño y construyo",
         title2: "productos digitales",
-        title3: "con alma.",
+        title3: "que conectan.",
         description:
-          "Soy un desarrollador frontend enfocado en interfaces limpias, animadas y accesibles. Aquí una selección de trabajos recientes.",
+          "Soy un desarrollador mobile enfocado en crear interfaces elegantes, performantes y bien pensadas. Combino arquitectura sólida con atención al detalle para construir productos que realmente se sienten.",
       },
       work: {
         title: "Trabajos seleccionados",
@@ -126,9 +126,9 @@ const resources = {
         eyebrow: "Portfolio · 2026",
         title1: "I design and build",
         title2: "digital products",
-        title3: "with soul.",
+        title3: "that connect.",
         description:
-          "I'm a frontend developer focused on clean, animated and accessible interfaces. Here's a selection of recent work.",
+          "I'm a mobile developer focused on creating elegant, high-performing, and well-designed interfaces. I combine robust architecture with attention to detail to build products that truly feel like home.",
       },
       work: {
         title: "Selected work",

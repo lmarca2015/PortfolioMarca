@@ -131,9 +131,9 @@ export default function App() {
       >
         <div className="flex items-end justify-between mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">{t("work.title")}</h2>
-          <span className="text-sm font-light text-neutral-400 tracking-wide">
+          {/* <span className="text-sm font-light text-neutral-400 tracking-wide">
             {t("work.count", { count: projectKeys.length })}
-          </span>
+          </span> */}
         </div>
 
         <ul className="divide-y divide-neutral-200 dark:divide-neutral-800">
