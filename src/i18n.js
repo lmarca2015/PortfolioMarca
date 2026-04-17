@@ -114,7 +114,7 @@ const resources = {
           description:
             "Empresa de software dedicada al desarrollo, mantenimiento y comercialización de aplicaciones y soluciones tecnológicas.",
           href: "https://apps.apple.com/pe/app/banco-ripley-per%C3%BA/id1425352352",
-          logo: "https://scontent.flim33-1.fna.fbcdn.net/v/t39.30808-6/253236736_4623721687680149_4439580083592166992_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=XHiNU3cGr20Q7kNvwEv0Err&_nc_oc=Adq8GRpbq-j1NDnGyLvY_bmFa-6N3Zzg882XpZ_YAih199OPEgr77DE6Lfi0Aw0PTnc&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&_nc_gid=wyQ9h2uebgF9m6PXFiCmUQ&_nc_ss=7a3a8&oh=00_Af2iht-Votx4tpMlFMiexIP1rOuULq1pSY2xd-Pn3fvPKA&oe=69DE7922",
+          logo: "https://scontent.flim33-1.fna.fbcdn.net/v/t39.30808-1/253236736_4623721687680149_4439580083592166992_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=5nkrrG-DX_QQ7kNvwFNtCUC&_nc_oc=Adq6jX8b_9LCbpE0xTsfMPmmydyC5OdQlvMjS0fMB_XgtUWK4umZPdZLJuBkHltmOvk&_nc_zt=24&_nc_ht=scontent.flim33-1.fna&_nc_gid=ZhXsd_xhsJBWbKlsRl8BQg&_nc_ss=7a3a8&oh=00_Af1jrkvLCmsnZNiqqZr_boXWz1yeUIHBp713jT1C6uVhuw&oe=69E74C64",
         },
       },
     },
@@ -231,7 +231,7 @@ const resources = {
           description:
             "A software company dedicated to the development, maintenance, and commercialization of technological applications and solutions.",
           href: "https://apps.apple.com/pe/app/banco-ripley-per%C3%BA/id1425352352",
-          logo: "https://scontent.flim33-1.fna.fbcdn.net/v/t39.30808-6/253236736_4623721687680149_4439580083592166992_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=XHiNU3cGr20Q7kNvwEv0Err&_nc_oc=Adq8GRpbq-j1NDnGyLvY_bmFa-6N3Zzg882XpZ_YAih199OPEgr77DE6Lfi0Aw0PTnc&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&_nc_gid=wyQ9h2uebgF9m6PXFiCmUQ&_nc_ss=7a3a8&oh=00_Af2iht-Votx4tpMlFMiexIP1rOuULq1pSY2xd-Pn3fvPKA&oe=69DE7922",
+          logo: "https://scontent.flim33-1.fna.fbcdn.net/v/t39.30808-1/253236736_4623721687680149_4439580083592166992_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=5nkrrG-DX_QQ7kNvwFNtCUC&_nc_oc=Adq6jX8b_9LCbpE0xTsfMPmmydyC5OdQlvMjS0fMB_XgtUWK4umZPdZLJuBkHltmOvk&_nc_zt=24&_nc_ht=scontent.flim33-1.fna&_nc_gid=ZhXsd_xhsJBWbKlsRl8BQg&_nc_ss=7a3a8&oh=00_Af1jrkvLCmsnZNiqqZr_boXWz1yeUIHBp713jT1C6uVhuw&oe=69E74C64",
         },
       },
     },

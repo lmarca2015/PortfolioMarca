@@ -136,7 +136,7 @@ export default function App() {
           </span> */}
         </div>
 
-        <ul className="divide-y divide-neutral-200 dark:divide-neutral-800">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projectKeys.map((key, i) => {
             const meta = projectMeta[key];
             const title = t(`projects.${key}.title`);
@@ -152,61 +152,43 @@ export default function App() {
                 custom={i}
                 className="group relative"
               >
-                <span
-                  aria-hidden="true"
-                  className="pointer-events-none absolute inset-x-0 inset-y-2 rounded-2xl bg-neutral-100/70 dark:bg-neutral-900/60 opacity-0 scale-[0.98] group-hover:opacity-100 group-hover:scale-100 transition duration-500 ease-out"
-                />
                 <a
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative flex flex-col md:grid md:grid-cols-12 gap-4 py-8 px-4 md:px-0 md:items-center"
+                  className="relative flex h-full flex-col gap-4 rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-950 p-6 transition duration-500 ease-out hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-900/60 hover:-translate-y-0.5"
                 >
-                  {/* Mobile header: logo + year + role */}
-                  <div className="flex items-center justify-between md:hidden">
-                    <CompanyLogo src={logo} alt={title} size={32} />
-                    <div className="flex flex-col items-end gap-1 text-sm text-neutral-500">
-                      <span className="flex items-center gap-1.5 whitespace-nowrap">
-                        <span className="text-base leading-none">{meta.flag}</span>
-                        {meta.year}
-                      </span>
-                      <span>{t(`projects.${key}.role`)}</span>
-                    </div>
-                  </div>
-
-                  {/* Desktop year + flag + logo */}
-                  <div className="hidden md:flex md:col-span-2 items-center gap-2 pl-4 whitespace-nowrap">
-                    <span className="text-base leading-none">{meta.flag}</span>
-                    <span className="text-sm font-light text-neutral-400 tracking-wide">
+                  <div className="flex items-start justify-between gap-3">
+                    <CompanyLogo src={logo} alt={title} size={40} />
+                    <span className="flex items-center gap-1.5 whitespace-nowrap text-sm font-light text-neutral-400 tracking-wide">
+                      <span className="text-base leading-none">{meta.flag}</span>
                       {meta.year}
                     </span>
                   </div>
-                  <div className="hidden md:flex md:col-span-1 justify-center">
-                    <CompanyLogo src={logo} alt={title} size={32} />
-                  </div>
 
-                  <div className="md:col-span-6">
-                    <h3 className="text-2xl md:text-3xl font-semibold tracking-tight">
+                  <div>
+                    <h3 className="text-2xl font-semibold tracking-tight">
                       {title}
                     </h3>
-                    <p className="mt-2 text-[15px] leading-relaxed text-neutral-500 dark:text-neutral-400 max-w-xl font-light">
-                      {t(`projects.${key}.description`)}
-                    </p>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {meta.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="text-[11px] font-medium uppercase tracking-widest px-3 py-1 bg-neutral-100 dark:bg-neutral-800/60 text-neutral-500 dark:text-neutral-400 rounded-full"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
+                    <span className="mt-1 block text-sm font-light text-neutral-400 tracking-wide">
+                      {t(`projects.${key}.role`)}
+                    </span>
                   </div>
 
-                  <span className="hidden md:block md:col-span-3 text-right text-sm font-light text-neutral-400 tracking-wide pr-4">
-                    {t(`projects.${key}.role`)}
-                  </span>
+                  <p className="text-[15px] leading-relaxed text-neutral-500 dark:text-neutral-400 font-light">
+                    {t(`projects.${key}.description`)}
+                  </p>
+
+                  <div className="mt-auto flex flex-wrap gap-2 pt-2">
+                    {meta.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[11px] font-medium uppercase tracking-widest px-3 py-1 bg-neutral-100 dark:bg-neutral-800/60 text-neutral-500 dark:text-neutral-400 rounded-full"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </a>
               </motion.li>
             );
